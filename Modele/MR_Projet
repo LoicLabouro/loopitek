@@ -1,0 +1,29 @@
+MUSIQUE(idMusique, titre, #genre)
+CP = (idMusique)
+CE = (genre) en référence à (idGenre) de GENRE
+
+GENRE(idGenre, libelleG)
+CP = (idGenre)
+
+ACTUALITE(idActu, titreActu, texteActu, dateActu)
+CP = (idActu)
+
+USER(idUser, Nom, Prenom, login, mdp, droit)
+CP = (idUser)
+
+COMMENTAIRE(idComment, contenu, #user)
+CP = (idComment)
+CE = (user) correspondant à (idUser) de USER
+
+TYPEMEDIA(idTypeM, libelleType)
+CP = (idTypeM)
+
+GALERIE(idMedia, nomMedia, #typeMedia)
+CP = (idMedia)
+CE = (typeMedia) correspondant à (idTypeM) de MEDIA
+
+
+
+
+
+

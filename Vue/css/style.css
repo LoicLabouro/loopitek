@@ -1,0 +1,210 @@
+/*image d'entête*/
+img {
+	padding: 10px;
+}
+
+/*Couleur de fond*/
+.colorfont {
+	background: linear-gradient(to bottom, rgba(120,164,25,1) 0%, rgba(255,190,79,1) 25%, rgba(219,34,24,1) 50%, rgba(80,70,140,1) 75%, rgba(120,1,199,1) 100%);
+}
+
+.colorfont_Trance {
+	background: linear-gradient(to bottom, rgba(80,70,140,1) 0%, rgba(120,164,25,1) 25%, rgba(255,189,79,1) 50%, rgba(219,34,24,1) 75%, rgba(120,1,199,1) 100%);
+}
+
+.colorfont_Raggatek{
+	background: linear-gradient(to bottom, rgba(219,34,24,1) 0%, rgba(255,189,79,1) 50%, rgba(120,164,25,1) 100%);
+}
+
+.colorfont_Frenchcore {
+	background: linear-gradient(to bottom, rgba(80,70,140,1) 0%, rgba(255,255,255,1) 50%, rgba(219,34,24,1) 100%);
+}
+
+.colorfont_Hardstyle {
+	background: linear-gradient(to bottom, rgba(80,70,140,1) 0%, rgba(120,164,25,1) 52%, rgba(120,1,199,1) 100%);
+}
+
+.colorfont_Electro {
+	background: linear-gradient(to bottom, rgba(219,34,24,1) 0%, rgba(120,164,25,1) 50%, rgba(120,1,199,1) 100%);
+}
+
+/*Style menu*/
+.nav{
+	background-color: #424558;
+}
+.nav a{
+	color: white;
+}
+.btn{
+	color: white;
+	background-color: rgba(220, 220, 220, 0.15);
+}
+.btn:hover{
+	color: white;
+}
+.dropdown-menu{
+	background-color: black;
+}
+
+.dropdown-item:hover{
+	background-color: black;
+	color: white;
+}
+
+.dropdown-item{
+	color: white;
+}
+
+.Accueil{
+	padding: 30px 20px;
+	border-bottom: 5px solid rgba(0,0,0,0);
+}
+
+.Accueil:hover{
+	padding: 30px 20px;
+	border-bottom: 5px solid #DB2218;
+	background-color: rgba(220, 220, 220, 0.15);
+}
+
+.Galerie{
+	padding: 30px 20px;
+}
+
+.Galerie:hover{
+	padding: 30px 20px;
+	border-bottom: 5px solid #78A419;
+	background-color: rgba(220, 220, 220, 0.15);
+}
+
+.Musique{
+	padding: 30px 20px;
+}
+
+.Musique:hover{
+	padding: 30px 20px;
+	border-bottom: 5px solid #FFBD4F;
+	background-color: rgba(220, 220, 220, 0.15);
+}
+
+.menu-contact{
+	padding: 30px 20px;
+}
+
+.menu-contact:hover{
+	padding: 30px 20px;
+	border-bottom: 5px solid #7801C7;
+	background-color: rgba(220, 220, 220, 0.15);
+}
+
+.connexion{
+	padding: 30px 20px;
+}
+
+.connexion:hover{
+	padding: 30px 20px;
+	border-bottom: 5px solid #50468C;
+	background-color: rgba(220, 220, 220, 0.15);
+}
+
+/**************************************************/
+
+/*Style du pied de page*/
+.font1{
+	font-family: 'Permanent Marker', cursive;
+}
+
+.font2{
+	font-family: 'Permanent Marker', cursive;
+	color: white;
+}
+
+.font3 {
+	font-family: 'Righteous', cursive;
+}
+
+.fontblanc {
+	font-family: 'Righteous', cursive;
+	color: white;
+}
+
+.font{
+	font-family: 'Questrial', sans-serif;
+}
+
+footer{
+	background-color: #424558;
+	color: white;
+}
+
+.black{
+	background-color: black;
+}
+
+.copyright{
+	color: grey;
+	background-color: #000000;
+	min-height: 45px;
+}
+
+.titre6{
+	font-size: 20px;
+	color: #d9d6d6;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+.ulcopyright{
+	list-style-type: none;
+	float: right;
+}
+
+.ulcopyright li{
+	float: left;
+	margin-right: 14px;
+}
+
+.ulcopyright li a{
+	color: grey;
+}
+
+.ulfooter{
+	list-style-type: none;
+	margin-left: 5px;
+}
+
+.ulfooter li{
+	line-height: 31px;
+	font-size: 12px;
+	margin-right: 14px;
+}
+
+.ulfooter li a{
+	color: grey;
+}
+
+.ulfooter li a:hover{
+	color: #4286f4;
+}
+
+.logo{
+	margin-top: 65px;
+	margin-bottom: 5px;
+	width: 90px;
+}
+
+/*Galerie */
+
+.btn:focus, .btn:active, button:focus, button:active {
+	outline: none !important;
+	box-shadow: none !important;
+}
+
+#image-gallery .modal-footer{
+	display: block;
+}
+
+.thumb{
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+/**************************************************/
